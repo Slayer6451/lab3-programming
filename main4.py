@@ -1,0 +1,7 @@
+text = input("Введите строку: ")
+print(f"Длина: {len(text)}")
+print(f"Вехрний регистр: {text.upper()}")
+print(f"Нижний регистр: {text.lower()}")
+print(f"Первый символ: {text[0]}")
+print(f"Последний символ: {text[-1]}")
+print(f"колличество пробелов: {text.count(" ")}")

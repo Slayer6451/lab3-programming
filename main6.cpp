@@ -20,7 +20,7 @@ int main() {
     double fahrenheit;
     std::cout << "Введите температуру в °F: ";
     std::cin >> fahrenheit;
-    double celsius = (fahrenheit - 32) * 5.0 / 9.0;  // Исправлено
+    double celsius = (fahrenheit - 32) * 5.0 / 9.0;
     std::cout << fahrenheit << "°F = " << celsius << "°C\n";
   } else {
     std::cout << "Некорректный выбор\n";
